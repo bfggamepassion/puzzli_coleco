@@ -1,0 +1,85 @@
+Scénario/Description du jeu :
+
+ Max (le héros de ce jeu), à adopté un chat très très spécial. En effet celui ci parle et
+ surtout ne mange que du poisson frais. Par amour, Max à décider de pécher
+ lui mème la nourriture pour cet animal très particulier.
+
+
+* Getting ready to play
+
+	Description du menu :
+	
+		START GAME : démarre le jeu
+		
+		EASY MODE : Sélectionne le mode de jeu principal (38 niveaux) en difficulté EASY
+		NORMAL MODE : Sélectionne le mode de jeu principal (38 niveaux) en difficulté NORMALE
+		HARD MODE : Sélectionne le mode de jeu principal (38 niveaux) en difficulté difficile
+		
+		TRAINING MODE : Sélectionne l'entrainement (18 niveaux).
+		
+		CONFIG TYPE 1 : Sélectionne le mode de controle 1
+		CONFIG TYPE 2 : Sélectionne le mode de controle 2
+		CONFIG TYPE 3 : Sélectionne le mode de controle 3
+		
+* Using your controllers
+
+	Le contrôle change selon le type de configuration sélectionné dans le menu.
+	
+	CONFIG TYPE 1 :
+			Bouton de gauche : Lacher le poisson
+			Bouton de droite : Changer le poisson avec celui du panier (Switch.)
+
+	CONFIG TYPE 2 :
+			Bouton de gauche : Changer le poisson avec celui du panier (Switch.)
+			Bouton de droite : Lacher le poisson
+			
+	CONFIG TYPE 2 :
+			Bouton de gauche : Changer le poisson avec celui du panier (Switch.)
+			Direction Bas : Lacher le poisson
+
+* Getting started
+
+	Sélectionnez le mode de difficulté que vous désirez, ainsi que le contrôle voulu, puis 
+	sélectionner START GAME pour démarrer le jeu.			  	
+
+* Here's how to play
+
+	Zone de jeu :
+	
+	La zone de jeu se présente ainsi :
+		
+	1) Max, le héros de ce jeu
+	2) Le poisson prêt à être laché pour appater les autres
+	3) Switch : Le poisson suivant, vous pouvez échanger le poisson courant avec celui-ci
+	4) La mer ou vous allez récupérer les poissons pour votre chat
+	5) Score
+	
+	But du jeu :
+	
+	Aligner au minimum 3 poissons de mème type pour les sortir de la zone de jeu. Un des
+	3 poissons alignés doit obligatoirement être à la surface de la zone de jeu.
+	
+	Sortie des poissons :
+	
+		Exemple1 OK, Exemple2 OK, Exemple3 NOK
+		
+	Scoring :
+	
+		Chaque poisson sortit compte pour 1 points. Si vous enchainez des sorties
+		de poissons, chaque nouvelle sortie multiplie les points des poissons sorties.
+		
+		Ex : Sortie 1 3 poissons = 3 points
+		Combo Sortie 2 3 poissons = 3 points x2
+		Combo Sortie 3 4 poissons = 4points x3
+		
+		Total : 3 + 6 + 12 = 21 points
+	
+	Que change le niveau de difficulté :
+	
+		Le niveau de difficulté change la probabilité du tirage du poisson suivant.
+		
+		En mode EASY, le tirage du poisson suivant se situera dans cette zone :
+		
+		En mode NORMAL, le tirage du poisson suivant se situera dans cette zone :
+		
+		En mode HARD, le tirage du poisson suivant se situera dans cette zone :
